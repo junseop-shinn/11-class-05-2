@@ -79,6 +79,103 @@ a {
         text-align: right;
     }
 
+    header {
+        background-image: url("/img/bg-header.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30vh;
+    }
+    
+    header > article {
+        background-color: rgba(50,50,50,.4);
+        height: 100%;
+        width: 100%;
+    }
+
+    main {
+        row-gap: 5vh;
+    }
+
+    footer {
+        background-color: var(--lightBlack);
+        row-gap: 5vh;
+        border-top: 5px solid var(--defaultColor);
+    }
+
+    footer > article,
+    footer > section  {
+        padding: 5%;
+    }
+
+    footer > article,
+    footer > article > article,
+    footer section,
+    footer aside {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4vh;
+    }
+
+    footer h3 {
+        text-transform: uppercase;
+        color: white;
+    }
+
+    footer section > aside {
+        flex-direction: row;
+        column-gap: 2vh;
+    }
+
+    footer aside > form{
+        padding: 2%;
+        display: flex;
+    }
+
+    input {
+        padding: 2%;
+        background-color: var(--lightBlack2);
+    }
+
+    [type="email"] {
+        background-color: var(--lightBlack2);
+        border: none;
+    }
+
+    footer > section {
+        background-color: var(--darkerBlack);
+        color: white;
+    }
+
+
+    input,
+    input::placeholder {
+        color: var(--defaultGray);
+    }
+
+    [type="submit"] {
+
+    }
+
+    /* [class^="fa-"] {
+        font-size: 36px;
+    } */
+
+    footer a {
+        font-size: 18px;
+        color: var(--defaultGray);
+        border-radius: 50%;
+        border: 2px solid var(--darkerGray);
+        height: 4vh;
+        width: 4vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer p {
+        color: var(--darkerGray);
+    }
 
     .features > article {
         display: flex;
@@ -165,4 +262,6 @@ a {
         color: var(--defaultColor);
         text-transform: uppercase;
     }
+
+
 }
