@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800&display=swap&#39;);
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800&display=swap&#39;');
 
 * {
     margin: 0;
@@ -55,6 +55,54 @@ a {
 
 @media (min-width : 250px) {
 
+    nav > ul {
+        display: none;
+    }
+
+    nav aside {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5vh;
+        padding-right: 5vh;
+        background-color: var(--darkerBlack);
+        color: white;
+        align-items: center;
+    }
+
+    nav h2 {
+        padding-left: 5vh;
+    }
+   
+
+    /* details {
+        padding-right: 5%;
+        position: absolute;
+        width: 100%;
+        text-align: right;
+    } */
+
+    datails ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: var(--darkerBlack);
+    }
+
+    details li {
+        display: flex;
+    }
+
+    details a {
+        color: white;
+        padding: 3%;
+        width: 100%;
+    }
+
+    summary {
+        font-size: 24px;
+    }
+
+
     header {
         background-image: url("/img/bg-header.jpg");
         background-position: center;
@@ -69,5 +117,50 @@ a {
         width: 100%;
     }
     
+    .features blockquote {
+        width: 100%;
+        color: white;
+        line-height: 1.5;
+        background-color: var(--defaultColor);
+        padding: 4%;
+        padding-left: 20%;
+        padding-right: 20%;
+        text-align: center;
+    }
+
+    .features q,
+    .features cite {
+        width: 80%;
+    }
+
+    .features > article {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10vh;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+
+    .features a {
+        color: var(--darkerBlack);
+        align-items: center;
+        row-gap: 2vh;
+    }
+    
+    .features i {
+        font-size: 48px;
+    }
+
+    .features p {
+        color: var(--darkerGray);
+        font-weight: 500;
+    }
+
+    .features h3 {
+        width: 40%;
+        text-align: center;
+    }
+
+
 
 }
