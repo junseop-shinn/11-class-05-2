@@ -352,4 +352,15 @@ a {
     .about blockquote {
         width: 90%;
     }
+
+    form {
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    footer > section {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1% 0.5%;
+    }
 }
