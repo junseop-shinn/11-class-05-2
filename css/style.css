@@ -401,6 +401,12 @@ a {
     footer > section {
         flex-direction: row;
         justify-content: space-between;
-        padding: 1% 0.5%;
+        padding: 2%;
+    }
+
+    footer,
+    footer > article > section,
+    footer > article > article {
+        row-gap: 2vh;
     }
 }
