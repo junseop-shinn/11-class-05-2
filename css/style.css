@@ -479,4 +479,36 @@ a {
         color: var(--defaultGray);
     }
    
+
+    footer {
+        align-items: center;
+    }
+
+    footer > article {
+        flex-direction: row;
+        column-gap: 4vh;
+        justify-content: space-between;
+        width: 76%;
+        padding: 2%;
+    }
+
+    footer > article p {
+        font-size: 14px;
+    }
+
+    footer > article > aside {
+        row-gap: 2vh;
+    }
+
+    form {
+        justify-content: flex-start;
+    }
+
+    footer > section {
+        width: 76%;
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    
 }
