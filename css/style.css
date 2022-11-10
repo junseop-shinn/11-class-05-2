@@ -311,7 +311,6 @@ a {
 
     }
 
-
     nav {
         flex-direction: row;
         justify-content: space-between;
@@ -324,20 +323,40 @@ a {
         height: 45vh;
     }
 
+    .features {
+        align-items: center;
+    }
+
     .features > blockquote {
-        flex-direction: row;
-        /* width: 90%; */
         padding: 2% 0;
     }
 
     .features h3 {
-        width: 70%;
+        width: 80%;
+        /* font-size: ; */
+
     }
 
     .features > article {
+        width: 96%;
+        justify-content: center;
         flex-direction: row;
         align-items: flex-end;
         justify-content: center;
+        padding: 0;
+        padding-top: 2vh;
+    }
+
+    .features a {
+        width: 24%;
+    }
+
+    .features p {
+        font-size: 14px;
+    }
+
+    main {
+        row-gap: 2vh;
     }
 
     .about section {
