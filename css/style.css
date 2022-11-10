@@ -440,4 +440,43 @@ a {
         padding-top: 0;
         align-items: center;
     }
+
+    .features blockquote {
+        padding: 1%;
+    }
+
+    .features > article {
+        width: 70%;
+        padding-top: 0;
+    }
+
+    .features a {
+        padding: 2%;
+        justify-content: space-evenly;
+    }
+
+    .features i {
+        font-size: 60px;
+    }
+
+    .features p {
+        font-size: 11px;
+    }
+
+    .features a:hover {
+        background-color: black;
+    }
+
+    .features a:hover > i {
+        color: white;
+    }
+
+    .features a:hover > h3 {
+        color: var(--defaultColor);
+    }
+ 
+    .features a:hover > p {
+        color: var(--defaultGray);
+    }
+   
 }
