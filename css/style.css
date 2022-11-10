@@ -331,7 +331,6 @@ a {
         justify-content: space-between;
         align-items: flex-end;
         padding: 2% 1%;
-        border: 1px red solid;
     }
 
     header {
@@ -430,5 +429,15 @@ a {
     
     header {
         height: 60vh;
+    }
+
+    nav {
+        justify-content: space-evenly;
+    }
+
+    nav > ul {
+        width: 40%;
+        padding-top: 0;
+        align-items: center;
     }
 }
