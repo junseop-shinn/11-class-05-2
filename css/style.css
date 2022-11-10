@@ -56,11 +56,11 @@ a {
         display: none;
     }
 
-    nav aside {
+    nav > aside {
         display: flex;
         justify-content: space-between;
-        padding-left: 5vh;
-        padding-right: 5vh;
+        padding-left: 1vh;
+        /* padding-right: 1vh; */
         background-color: var(--darkerBlack);
         color: white;
         align-items: center;
@@ -68,15 +68,30 @@ a {
         padding-bottom: 2vh;
     }
 
-    nav h2 {
-        padding-left: 5vh;
+    nav > aside li {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    nav > aside a {
+        padding-right: 5%;
+        color: white;
+    } 
+
+    nav > aside ul {
+        position: absolute;
+        width: 100%;
+        align-items: flex-end;
+        justify-content: flex-end;
+        background-color: #111111;
     }
 
     details {
-        padding-right: 5%;
-        /* position: absolute; */
         width: 100%;
         text-align: right;
+        position: relative;
+        padding-right: 2%;
     }
 
     header {
@@ -314,9 +329,9 @@ a {
     nav {
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-end;
         padding: 2% 1%;
-
+        border: 1px red solid;
     }
 
     header {
